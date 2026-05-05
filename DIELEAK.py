@@ -16,7 +16,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 load_dotenv()
 
-BOT_TOKEN        = os.getenv("8417772827:AAH3MjzXKAazSCKO3HZc6eVhSc9lqXUZMxQ")
+BOT_TOKEN        = os.getenv("8061108938:AAGckrBK5aeh0DjjSKy8EFfosfvM3FgbADc")
 MONGODB_URI      = os.getenv("mongodb+srv://grlk2Qz3M3h:<db_grlk2Qz3M3hMpppx@cluster0.vfa9gpf.mongodb.net/", "Goku")
 DATABASE_NAME    = os.getenv("Goku", "attack_bot")
 API_URL          = os.getenv("https://cloud.sambanova.ai/apis")
